@@ -1,0 +1,303 @@
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir.eot') format('eot'),
+    url('../fonts/vazir.ttf') format('truetype'),
+    url('../fonts/vazir.woff') format('woff');
+}
+body{
+    font-family: 'vazir';
+    direction: rtl;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.s1{
+    background: url('../images/1.jpg');
+    background-size: cover;
+}
+
+.s1 ul{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 8vh;
+    z-index: 1000;
+}
+
+.s1 ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.s1 ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.s1 .fp-controlArrow.fp-prev{
+   position: absolute;
+    top: 90%;
+    left: 50px;
+    border-width: 20px 20px 20px 0;
+}
+
+.s1 .fp-controlArrow.fp-next{
+   position: absolute;
+    top: 90%;
+    right: 90%;
+    border-width: 20px 0 20px 20px;
+}
+
+.s1 h1{
+    text-align: left;
+    width: 90%;
+    color: #fff;
+    font-size: 50px;
+    margin-top: -250px;
+}
+
+.s1 h1 a{
+    color: #ff5722;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+
+.s2{
+    background: url('../images/2.jpg');
+    background-size: cover;
+}
+
+.s2 .sectionTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.s2 .sectionTwo h1{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.s2 .sectionTwo h1 span{
+    color: #c00;
+}
+
+.s2 .sectionTwo ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.s2 .sectionTwo ul li{
+    width: 49%;
+    background: rgba(255,255,255, .8);
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.s2 .sectionTwo ul li a{
+    color: #000;
+}
+.s2 .sectionTwo ul li svg{
+    font-size: 150px;
+}
+
+.s2 .sectionTwo ul li a h4{
+    padding: 25px 0;
+}
+
+.s3{
+    background: url('../images/3.jpg');
+    background-size: cover;
+}
+
+
+
+.s3 .sectionThree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+
+.s3 .sectionThree h1{
+   color: #fff;
+   font-size: 60px;
+   width: 100%;
+   padding: 0 50px;
+   margin-bottom: 50px;
+}
+
+
+.s3 .sectionThree h1 span{
+    color: #ca9431;
+}
+
+.s3 .sectionThree ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.s3 .sectionThree ul li{
+    width: 49%;
+    background: rgba(255,255,255, .8);
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.s3 .sectionThree ul li a{
+    color: #000;
+}
+.s3 .sectionThree ul li a img{
+    width: 100%;
+    height: 250px;
+
+}
+
+.s4{
+    background: url('../images/4.jpg');
+    background-size: cover;
+}
+
+
+.s4 .sectionFour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+
+.s4 .sectionFour h1{
+   color: #fff;
+   font-size: 60px;
+   width: 100%;
+   padding: 0 50px;
+   margin-bottom: 50px;
+}
+
+.s4 .sectionFour form{
+    width: 25%;
+}
+
+.s4 .sectionFour form input{
+    width: 100%;
+    padding: 10px;
+    font-family: 'vazir';
+    margin-top: 20px;
+    background: rgba(0,0,0,.8);
+    border: 4px solid #333;
+    font-size: 19px;
+}
+
+.s4 .sectionFour form textarea{
+    width: 100%;
+    resize: none;
+    height: 200px;
+    margin-top: 20px;
+    font-family: 'vazir';
+    padding: 10px;
+    background: rgba(0,0,0,.8);
+    border: 4px solid #333;
+    font-size: 19px;
+
+}
+
+.s4 .sectionFour form input[type=submit]{
+    color: #fff;
+    font-size: 19px;
+    border: none;
+    background: #c00;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgb(190, 190, 190);
+}
+
+.s4 .sectionFour h1 span{
+    color: #94f1c3;
+}
+
+.s5{
+    background: #000;
+    text-align: center;
+}
+
+.s5 .footer{
+    width: 900px;
+    margin: auto;
+}
+
+.s5 .footer-about{
+    width: 900px;
+    color: #fff;
+}
+.s5 .footer-about h2{
+    margin-bottom: 20px;
+}
+.s5 .footer .footer-car h2{
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.s5 .footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    width: 900px;
+}
+.s5 .footer ul li{
+    width: 24%;
+    margin-top: 20px;
+}
+.s5 .footer ul li img{
+    width: 100%;
+}
+
+.s5 .footer .copy-right{
+    margin-top: 50px;
+    color: #fff;
+}
+
+
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: #fff !important;
+}
+#fp-nav ul li a.active span{
+    background: #c00 !important;
+}

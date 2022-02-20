@@ -1,0 +1,81 @@
+@media screen and (max-width: 1200px){
+    .s3 .sectionThree ul{
+        width: 60%;
+    }
+    .s4 .sectionFour form{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 992px){
+    .s1 .fp-controlArrow.fp-next{
+        right: 85%;
+    }
+}
+@media screen and (max-width: 768px){
+    .s1 ul{
+        justify-content: center;
+        right: 0;
+    }
+    .s3 .sectionThree ul{
+        width: 80%;
+    }
+    .s5 .footer{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .s5 .footer-about{
+        width: 100%;
+    }
+    .s5 .footer ul {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .s1 ul li{
+        margin: 0 10px;
+    }
+    .s1 ul li a{
+        font-size: 15px;
+    }
+    .s1 h1{
+        font-size: 35px;
+    }
+    .s1 .fp-controlArrow.fp-next{
+        right: 75%;
+    }
+    .s2 .sectionTwo h1{
+        margin-bottom: 30px;
+    }
+
+    .s2 .sectionTwo ul li svg{
+        font-size: 100px;
+    }
+    .s2 .sectionTwo ul li a h4{
+        padding: 10px 0;
+    }
+    .s2 .sectionTwo ul{
+        width: 100%;
+        padding: 0 50px;
+    }
+    .s2 .sectionTwo ul li{
+        width: 100%;
+    }
+    .s4 .sectionFour form{
+        width: 70%;
+    }
+    .s4 .sectionFour h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 400px){
+    .s1 ul li a{
+        font-size: 13px;
+    }
+    .s1 h1{
+        font-size: 25px;
+    }
+    .s3 .sectionThree ul li{
+        width: 100%;
+    }
+}
